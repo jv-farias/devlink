@@ -77,6 +77,8 @@ body {
 
 .btn-links a:hover {
   background-color: rgba(255, 255, 255, 0.20);
+  transform: scale(1.05);
+  transition: all 300ms;
 }
 
 .btn-links a:active {
@@ -102,6 +104,24 @@ body {
   margin: 0 auto;
   background: #b87979;
   border-radius: 15px;
+}
+
+#card-nlw {
+  background-image: url(./assets/project-nlw.webp); 
+  background-position: center; 
+  background-size: cover;
+}
+
+#card-pagina {
+  background-image: url(./assets/projects-person_page.webp); 
+  background-position: center; 
+  background-size: cover;
+}
+
+#card-form {
+  background-image: url(./assets/project-forms.webp); 
+  background-position: center; 
+  background-size: cover;
 }
 
 .project-name {
